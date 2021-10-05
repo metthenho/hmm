@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.main
+{
+	height: auto;
+	width: 100%;
+	background-color: aqua;
+	box-sizing: border-box;
+}
+.banner
+{
+	height: 100px;
+	width: 100%;
+	padding: 10px 100px;
+	box-sizing: border-box;
+}
+.logo
+{
+	height: 50px;
+	width: 11%;
+	background: url("../images/logo.png");
+	float:left;
+	background-size: cover;
+	margin:20px 0;
+}
+.menu
+{
+	height: 100px;
+	width: 80%;
+	float: right;
+}
+.menu ul
+{
+	list-style: none;
+}
+.menu ul li
+{
+	float: right;
+	padding: 20px 30px;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	color: gainsboro;
+	font-size: 17px;
+}
+.menu ul li:hover
+{
+	background-color:darkblue;
+}
+.header
+{
+	height: 800px;
+	width: 100%;
+	background-image: url("../images/bg.gif");
+	background-size: cover;
+}
+
+.footer
+{
+	height: 200px;
+	width: 100%;
+	background-color:darkgray;
+	box-sizing: border-box;
+	padding-top: 30px;
+	padding-left: 100px;
+}
+.slider
+{
+	width: 100%;
+	height: 700px;
+	box-sizing: border-box;
+	padding: 200px 550px 10px 0;
+}
+button
+{
+	width: 180px;
+	height: 50px;
+	background-color:hotpink;
+	border-color:purple;
+	border-radius: 50px;
+}
+.second
+{   height: 450px;
+	width: 100%;
+	background:url("../images/bg2.jpg");
+	background-size: cover;
+	box-sizing: border-box;
+	padding-left: 100px;
+	padding-top: 70px;
+	padding-right: 100px;
+}
+.chu
+{
+	height: 100px;
+	width: 40%;
+	float: left;
+	margin-top: 100px;
+}
+.mot
+{   height: 300px;
+	width: 50%;
+	background-color:blueviolet;
+	background-size: cover;
+	float: right;
+}
+.fist
+{   height: 600px;
+	width: 100%;
+	background-color:#010A3F;
+	background-size: cover;
+	box-sizing: border-box;
+	padding-left: 100px;
+	padding-top: 70px;
+	padding-right: 100px;
+}
+.anh
+{   height: 200px;
+	width: 15%;
+	background:url("../images/1.jpg");
+	background-size: cover;
+	border-radius: 20px;
+	float: left;
+	margin: 10px 25px;
+}
+.anh2
+{   height: 200px;
+	width: 15%;
+	background:url("../images/2.jpg");
+	background-size: cover;
+	border-radius: 20px;
+	float: left;
+	margin: 10px 25px;
+}
+.anh3
+{   height: 200px;
+	width: 15%;
+	background:url("../images/3.jpg");
+	background-size: cover;
+	border-radius: 20px;
+	float: left;
+	margin: 10px 25px;
+}
+.anh4
+{   height: 200px;
+	width: 15%;
+	background:url("../images/4.jpg");
+	background-size: cover;
+	border-radius: 20px;
+	float: left;
+	margin: 10px 20px;
+}
+.anh5
+{   height: 200px;
+	width: 15%;
+	background:url("../images/5.png");
+	background-size: cover;
+	border-radius: 20px;
+	float: left;
+	margin: 10px 25px;
+}
+.logoft
+{
+	height: 70px;
+	width: 14%;
+	background: url("../images/logo.png");
+	background-size: cover;
+	float: left;
+	margin:20px 50px 20px 0;
